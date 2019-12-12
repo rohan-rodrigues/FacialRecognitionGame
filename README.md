@@ -22,6 +22,15 @@
 
 ---
 
+**Images**
+
+[![Game in progress](https://github.com/CS126FA19/fantastic-finale-rohan-rodrigues/blob/master/game_in_progress_img.png)]
+
+[![Game over](https://github.com/CS126FA19/fantastic-finale-rohan-rodrigues/blob/master/game_over_img.png)]
+
+
+__
+
 ## Installation
 
 - This program only works with Xcode **
