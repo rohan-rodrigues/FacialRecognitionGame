@@ -26,7 +26,7 @@
 
 ![Game in progress](https://github.com/CS126FA19/fantastic-finale-rohan-rodrigues/blob/master/game_in_progress_img.png)
 
-![Game over](https://github.com/CS126FA19/fantastic-finale-rohan-rodrigues/blob/master/game_over_img.png)s
+![Game over](https://github.com/CS126FA19/fantastic-finale-rohan-rodrigues/blob/master/game_over_img.png)
 
 
 ---
