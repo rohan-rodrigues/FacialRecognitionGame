@@ -15,6 +15,13 @@
 
 ---
 
+**Main Files Used**
+- main.cpp
+- ballGameWithFacialRecognition.cpp
+- ballGameWithFacialRecognition.h
+
+---
+
 ## Installation
 
 - This program only works with Xcode **

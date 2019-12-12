@@ -11,18 +11,11 @@
 		1D5F3298C2FA073628012944 /* ofxCvContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C76DE5C29BDBD2CAA1DD0021 /* ofxCvContourFinder.cpp */; };
 		250A95BA26587BE85DB0A353 /* ofxCvColorImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE9C7160245B19131DAE6128 /* ofxCvColorImage.cpp */; };
 		63020F16C7E8DED980111241 /* ofxCvImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6151136D101F857DAE12722 /* ofxCvImage.cpp */; };
-		C38A0CE423A087C60042FFEE /* brightestPointInImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C38A0CE223A087C60042FFEE /* brightestPointInImage.cpp */; };
-		C38A0CE723A089150042FFEE /* brightestPointInVideo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C38A0CE523A089150042FFEE /* brightestPointInVideo.cpp */; };
-		C38A0CEA23A1907C0042FFEE /* moveBall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C38A0CE823A1907C0042FFEE /* moveBall.cpp */; };
-		C38A0CED23A1921D0042FFEE /* mouseTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C38A0CEB23A1921D0042FFEE /* mouseTracker.cpp */; };
-		C38A0CF023A195AC0042FFEE /* ballGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C38A0CEE23A195AC0042FFEE /* ballGame.cpp */; };
-		C38A0CFC23A1DB690042FFEE /* faceFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C38A0CFA23A1DB690042FFEE /* faceFinder.cpp */; };
 		C38A0CFF23A1E1E70042FFEE /* ballGameWithFacialRecognition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C38A0CFD23A1E1E70042FFEE /* ballGameWithFacialRecognition.cpp */; };
 		C38A0D0323A1F3B30042FFEE /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C38A0D0223A1F3B20042FFEE /* test.cpp */; };
 		D3301F6A0B43BB293ED97C1D /* ofxCvShortImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A4DD23693DFAB8EC05FAA5D /* ofxCvShortImage.cpp */; };
 		E212C821D1064B92DD953A42 /* ofxCvHaarFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A16CBF2E8CFE43AF54FE6F5 /* ofxCvHaarFinder.cpp */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
-		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
 		FB09C6B2A1DA0EA217240CB8 /* ofxCvGrayscaleImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 057122A817D12571F8C0C7A4 /* ofxCvGrayscaleImage.cpp */; };
 /* End PBXBuildFile section */
 
@@ -376,18 +369,6 @@
 		C22D2E2813FFE1C6DADD94D3 /* vec_distance_detail.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec_distance_detail.hpp; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/cuda/detail/vec_distance_detail.hpp; sourceTree = SOURCE_ROOT; };
 		C2BAF0FAC0A9F9495EBD9F9E /* va_intel.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = va_intel.hpp; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/va_intel.hpp; sourceTree = SOURCE_ROOT; };
 		C341A0F8FE761945000D57E4 /* cvstd_wrapper.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvstd_wrapper.hpp; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/cvstd_wrapper.hpp; sourceTree = SOURCE_ROOT; };
-		C38A0CE223A087C60042FFEE /* brightestPointInImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = brightestPointInImage.cpp; sourceTree = "<group>"; };
-		C38A0CE323A087C60042FFEE /* brightestPointInImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = brightestPointInImage.h; sourceTree = "<group>"; };
-		C38A0CE523A089150042FFEE /* brightestPointInVideo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = brightestPointInVideo.cpp; sourceTree = "<group>"; };
-		C38A0CE623A089150042FFEE /* brightestPointInVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = brightestPointInVideo.h; sourceTree = "<group>"; };
-		C38A0CE823A1907C0042FFEE /* moveBall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moveBall.cpp; sourceTree = "<group>"; };
-		C38A0CE923A1907C0042FFEE /* moveBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moveBall.h; sourceTree = "<group>"; };
-		C38A0CEB23A1921D0042FFEE /* mouseTracker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mouseTracker.cpp; sourceTree = "<group>"; };
-		C38A0CEC23A1921D0042FFEE /* mouseTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mouseTracker.h; sourceTree = "<group>"; };
-		C38A0CEE23A195AC0042FFEE /* ballGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ballGame.cpp; sourceTree = "<group>"; };
-		C38A0CEF23A195AC0042FFEE /* ballGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ballGame.h; sourceTree = "<group>"; };
-		C38A0CFA23A1DB690042FFEE /* faceFinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = faceFinder.cpp; sourceTree = "<group>"; };
-		C38A0CFB23A1DB690042FFEE /* faceFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = faceFinder.h; sourceTree = "<group>"; };
 		C38A0CFD23A1E1E70042FFEE /* ballGameWithFacialRecognition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ballGameWithFacialRecognition.cpp; sourceTree = "<group>"; };
 		C38A0CFE23A1E1E70042FFEE /* ballGameWithFacialRecognition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ballGameWithFacialRecognition.h; sourceTree = "<group>"; };
 		C38A0D0123A1F3A70042FFEE /* catch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = catch.hpp; path = "../../../../../Coding/intelliJ-projects/cpp-tictactoe-rohan-rodrigues/src/catch.hpp"; sourceTree = "<group>"; };
@@ -640,8 +621,6 @@
 		E4385429A1E63ACEDC39A612 /* operations.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = operations.hpp; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv2/core/operations.hpp; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* testNewDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testNewDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		E4FCC9014FB0CF6D91E487B4 /* cuda.inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cuda.inl.hpp; path = ../../../addons/ofxOpenCv/libs/opencv/include/opencv4/opencv2/core/cuda.inl.hpp; sourceTree = SOURCE_ROOT; };
@@ -1945,20 +1924,6 @@
 			isa = PBXGroup;
 			children = (
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
-				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
-				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-				C38A0CE223A087C60042FFEE /* brightestPointInImage.cpp */,
-				C38A0CE323A087C60042FFEE /* brightestPointInImage.h */,
-				C38A0CE523A089150042FFEE /* brightestPointInVideo.cpp */,
-				C38A0CE623A089150042FFEE /* brightestPointInVideo.h */,
-				C38A0CE823A1907C0042FFEE /* moveBall.cpp */,
-				C38A0CE923A1907C0042FFEE /* moveBall.h */,
-				C38A0CEB23A1921D0042FFEE /* mouseTracker.cpp */,
-				C38A0CEC23A1921D0042FFEE /* mouseTracker.h */,
-				C38A0CEE23A195AC0042FFEE /* ballGame.cpp */,
-				C38A0CEF23A195AC0042FFEE /* ballGame.h */,
-				C38A0CFA23A1DB690042FFEE /* faceFinder.cpp */,
-				C38A0CFB23A1DB690042FFEE /* faceFinder.h */,
 				C38A0CFD23A1E1E70042FFEE /* ballGameWithFacialRecognition.cpp */,
 				C38A0CFE23A1E1E70042FFEE /* ballGameWithFacialRecognition.h */,
 				C38A0D0123A1F3A70042FFEE /* catch.hpp */,
@@ -2172,23 +2137,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38A0CE423A087C60042FFEE /* brightestPointInImage.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				C38A0CF023A195AC0042FFEE /* ballGame.cpp in Sources */,
-				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				250A95BA26587BE85DB0A353 /* ofxCvColorImage.cpp in Sources */,
 				C38A0D0323A1F3B30042FFEE /* test.cpp in Sources */,
 				1D5F3298C2FA073628012944 /* ofxCvContourFinder.cpp in Sources */,
-				C38A0CFC23A1DB690042FFEE /* faceFinder.cpp in Sources */,
 				169D3C72FDE6C5590A1616F5 /* ofxCvFloatImage.cpp in Sources */,
 				FB09C6B2A1DA0EA217240CB8 /* ofxCvGrayscaleImage.cpp in Sources */,
 				E212C821D1064B92DD953A42 /* ofxCvHaarFinder.cpp in Sources */,
 				63020F16C7E8DED980111241 /* ofxCvImage.cpp in Sources */,
 				D3301F6A0B43BB293ED97C1D /* ofxCvShortImage.cpp in Sources */,
 				C38A0CFF23A1E1E70042FFEE /* ballGameWithFacialRecognition.cpp in Sources */,
-				C38A0CED23A1921D0042FFEE /* mouseTracker.cpp in Sources */,
-				C38A0CE723A089150042FFEE /* brightestPointInVideo.cpp in Sources */,
-				C38A0CEA23A1907C0042FFEE /* moveBall.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
